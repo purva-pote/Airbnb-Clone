@@ -1,0 +1,337 @@
+@font-face {
+    font-family: cereal-lt;
+    src: url(AirbnbCereal_W_Bk.otf);
+}
+
+@font-face {
+    font-family: cereal-reg;
+    src: url(AirbnbCereal_W_Md.otf);
+}
+
+@font-face {
+    font-family: cereal-bld;
+    src: url(AirbnbCereal_W_Bd.otf);
+}
+
+@font-face {
+    font-family: cereal-xbld;
+    src: url(AirbnbCereal_W_XBd.otf);
+}
+p{
+    margin: 0px;
+}
+body{
+    font-family: cereal-reg;
+}
+
+.fullheader{
+    position: relative;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.airbnb-logo{
+    color: rgb(255, 90, 95);
+    height:32px;
+}
+
+.menu{
+    margin-left: 5px;
+}
+
+.profile{
+    color: rgb(109, 109, 109);
+}
+
+.start{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 44px;
+    width: 65px;
+}
+
+.start-btn{
+    border: 1px solid rgb(211, 211, 211);
+    background-color: white;
+    border-radius: 80px;
+    padding: 2px 9px;
+}
+
+.header1{
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    padding: 17px 77px;
+}
+
+.center-menu{
+    position: absolute;
+    top: 17px;
+    left: 44%;
+    display: flex;
+    gap: 30px;
+    margin-top: 6px;
+}
+
+.exp{
+    color: gray;
+    margin-left: 3px;
+}
+
+.home-btn{
+    font-family: cereal-reg;
+    font-size: 14px;
+    border: none;
+    /* border: 1px solid rgb(211, 211, 211); */
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 10px;
+}
+
+.globe{
+    height: 17px;
+    width: 17px;
+    margin-right: 4px;
+}
+.leftend{
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 820px;
+    height: 48px;
+    border: 1px solid rgb(231, 231, 231);
+    padding:8px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px rgb(222, 222, 222);
+    font-family: cereal-lt;
+}
+
+.p1{
+    border-right: 1px solid rgb(209, 209, 209);
+    width: 240px;
+    padding: 0px 25px;
+    align-content: center;
+    margin: 5px 0px;
+}
+.p2{
+    border-right: 1px solid rgb(209, 209, 209);
+    width: 130px;
+    padding: 0px 25px;
+    align-content: center;
+    margin: 5px 0px;
+}
+.p3{
+    border-right: 1px solid rgb(209, 209, 209);
+    width: 130px;
+    padding: 0px 25px;
+    align-content: center;
+    margin: 5px 0px;
+}
+.p4{
+
+    width: 188px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    align-items: center;
+    margin: 5px 0px;
+}
+.txttop{
+    margin: 0px;
+    font-size: 12px;
+}
+.txtbottom{
+    margin: 0px;
+    font-size: 15px;
+    color: grey;
+}
+.searchicon{
+    margin-left: 11px;
+}
+.searchbtn{
+    width: 54px;
+    margin: 0px;
+    color: white;
+    background-color: rgba(255, 56, 92, 1)  ;
+    border: none;
+    border-radius: 40px;
+}
+
+.menubar{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid grey; */
+    margin: 17px 77px;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex ;
+    margin: 0px;
+    gap: 42px;
+}
+
+.iconbox{
+    font-family: cereal-lt;
+    border-bottom: 3px solid black;
+    width: auto;
+    font-size: 12px;
+    justify-items: center;
+}
+.icontxt{
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.icon{
+    width: 24px;
+    margin: 0px;
+}
+.iconbox2{
+    font-family: cereal-lt;
+    width: auto;
+    font-size: 12px;
+    justify-items: center;
+}
+.icontxt2{
+    color: rgb(100, 100, 100);
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+.icon2{
+    width: 24px;
+    margin: 0px;
+    filter: opacity(65%);
+}
+
+.arrow{
+    margin-bottom: 10px;
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    margin-bottom: 15px;
+}
+.arrowbox{
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.filterbox{
+    margin: 0px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 12px ;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    filter: opacity(80%);
+}
+
+.taxbox{
+    margin: 0px;
+}
+.tax{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 12px ;
+    padding: 4px 15px;
+    margin-bottom: 15px;
+    filter: opacity(80%);
+}
+.switch{
+    color: grey;
+}
+.btntxt{
+    padding-bottom: 2px;
+    font-size: 12px;
+    font-family: cereal-reg;
+}
+
+
+
+.main{
+    display: flex;
+    margin: 17px 77px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card{
+    width: 320px;
+    font-size: 15px;
+    position: relative;
+}
+.cardimg{
+    width: 320px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.captions{
+    font-family: cereal-lt;
+    color: grey;
+    margin-top: 3px
+}
+.price{
+    margin-top: 7px;
+    font-family: cereal-lt;
+}
+
+.heart{
+    position: absolute;
+    top: 12px;
+    right: 15px;
+
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.tag{
+    position: absolute;
+    border: none;
+    box-shadow: 1px 1px 5px rgb(96, 96, 96);
+    width: fit-content;
+    padding: 3px 10px;
+    border-radius: 15px;
+    background-color: white;
+    top: 11px;
+    left: 12px;
+}
+.map{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    font-size: 14px;
+    font-family: cereal-reg;
+    border: none;
+    padding: 15px 18px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 35px;
+    left: 45.3%;
+
+}
